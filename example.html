@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imtixon</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <img src="" alt="" />
+        </nav>
+      </div>
+    </header>
+    <div class="containerr">
+        <!-- <div  class="swip">
+        <div style="display: flex; " id="carousel" class="carousel">
+            <img style="width: 500px; height: 400px;" src="./image/blucar.jpg" alt="Image 1">
+            <img style="width: 500px; height: 400px;" src="./image/black.avif" alt="Image 2">
+            <img style="width: 500px; height: 400px;" src="./image/redcar.jpg" alt="Image 3">
+      </div> -->
+        </div>
+    </div>
+    <div class="container">
+      <div class="wrapper">
+        <div style=" display: flex; justify-content: center;" class="btns">
+          <button id="searchModelBtn">Search</button>
+          <button id="sortBtn">Sort</button>
+          <button id="addCarBtn">Added</button>
+        </div>
+
+        <div  id="divs">
+           <div class="top">
+            <div id="inputDisplaySearch">
+                <input id="inputDisplaySearch" type="text" placeholder="Search..." />
+                <button id="noneSearch">Cencel</button>
+                <button id="CreatSearch">Create</button>
+              </div>
+            <div id="inputSortedDiv">
+                <input id="inputSorted" type="text" placeholder="Sort..." />
+                <button id="noneSort">Cencel</button>
+              </div>
+            <!-- <div id="inputDisplaySort">
+                <input id="inputSorted" type="text" placeholder="Sort..." />
+                <button id="noneSort">Cencel</button>
+              </div> -->
+           </div>
+          <form style=" margin-left: 400px;" id="formAddCar">
+            <input 
+              id="addNameCar"
+              type="text"
+              placeholder="Add car name..."
+              style="margin-top: 20px"
+            />
+            <input 
+              id="addNameModel"
+              type="text"
+              placeholder="Add model..."
+              style="margin-top: 20px"
+            />
+            <input 
+              id="addYear"
+              type="number"
+              placeholder="Add year..."
+              style="margin-top: 20px"
+            />
+            <input 
+              id="addColor"
+              type="text"
+              placeholder="Add color..."
+              style="margin-top: 20px"
+            />
+            <input 
+              id="idNumber"
+              type="number"
+              placeholder="Add ID number..."
+              style="margin-top: 20px"
+            />
+            <input 
+              id="addPrice"
+              type="number"
+              placeholder="Price..."
+              style="margin-top: 20px; margin-bottom: 20px"
+            />
+            <button
+            id="formNone"
+            style="margin-left: 100px; margin-bottom: -40px;"
+          >
+            Cancel
+          </button>
+            <button id="formCreate">Create</button>
+          </form>
+          
+        </div>
+      </div>
+    </div>
+      <div class="wrapper3">
+        <h2>Cars You Have Added</h2>
+      <div class="container">
+          <div class="result">
+            <div class="card">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="container">
+        <div id="selection"></div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./example.js"></script>
+  </body>
+</html>
